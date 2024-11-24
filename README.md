@@ -29,19 +29,23 @@ Este projeto Java demonstra a implementação técnica de uma busca automática 
 3. **Compilação:**  Compile o projeto no Eclipse IDE (Project > Clean... > Build Project).
 4. **Execução:** Execute o arquivo JAR gerado através do comando: `java -jar nome_do_seu_jar.jar`.
 
-
 ## Uso
 
-1. Insira o CEP no campo de texto designado.
-![cep1](https://github.com/user-attachments/assets/e9882702-00bc-437a-822c-b68a4a7da44e)
-2. Clique no botão "Pesquisar" caso houver algum erro sera indicado.
-![ceperror](https://github.com/user-attachments/assets/d5c1ea8d-79a8-431b-a976-66277821e2bf)
-3. As informações de endereço correspondentes serão exibidas nos campos apropriados, caso o CEP seja encontrado.
-4. Um ícone de status indicará o resultado da busca.
-![cepresul](https://github.com/user-attachments/assets/b8acad4a-0029-4bdc-b6d7-9b950ad9ce82)
-5. Utilize o botão "Limpar" para apagar o conteúdo dos campos.
-6. Acesse a janela "Sobre" para obter informações adicionais sobre o projeto e o autor.
-![cepsobre](https://github.com/user-attachments/assets/fe09bf9c-f9c2-458f-926f-931905da313f)
+1. **Insira o CEP:** Digite o CEP desejado no campo de texto designado.  Certifique-se de inserir apenas números, sem hífen ou outros caracteres.
+   ![cep1](https://github.com/user-attachments/assets/e9882702-00bc-437a-822c-b68a4a7da44e)
+
+2. **Pesquise o endereço:** Clique no botão "Pesquisar". O aplicativo consultará o Web Service e processará a resposta.  Caso ocorra algum erro durante a consulta (CEP inválido, serviço indisponível, etc.), uma mensagem de erro será exibida.
+   ![ceperror](https://github.com/user-attachments/assets/d5c1ea8d-79a8-431b-a976-66277821e2bf)
+
+3. **Visualize o endereço:** Se o CEP for encontrado, as informações de endereço (logradouro, bairro, cidade e UF) serão preenchidas automaticamente nos campos correspondentes.
+   ![cepresul](https://github.com/user-attachments/assets/b8acad4a-0029-4bdc-b6d7-9b950ad9ce82)
+
+4. **Verifique o status:** Um ícone de status ao lado do campo de CEP indicará o resultado da busca. Um ícone verde indica sucesso, enquanto a ausência de ícone ou um ícone diferente pode indicar um erro.
+
+5. **Limpe os campos:** Para realizar uma nova busca, clique no botão "Limpar".  Todos os campos serão limpos, e o foco retornará ao campo de CEP.
+
+6. **Sobre o projeto:** Para obter informações sobre o projeto, a versão, o autor e links para repositórios online (como GitHub e LinkedIn), clique no botão "Sobre".
+   ![cepsobre](https://github.com/user-attachments/assets/fe09bf9c-f9c2-458f-926f-931905da313f)
 ## Limitações
 
 * O Web Service da República Virtual pode apresentar instabilidade. Recomenda-se a migração para o ViaCEP.
