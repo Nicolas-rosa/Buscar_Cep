@@ -38,6 +38,7 @@ Este projeto Java demonstra a implementação técnica de uma busca automática 
    ![ceperror](https://github.com/user-attachments/assets/d5c1ea8d-79a8-431b-a976-66277821e2bf)
 
 3. **Visualize o endereço:** Se o CEP for encontrado, as informações de endereço (logradouro, bairro, cidade e UF) serão preenchidas automaticamente nos campos correspondentes.
+   
    ![cepresul](https://github.com/user-attachments/assets/b8acad4a-0029-4bdc-b6d7-9b950ad9ce82)
 
 4. **Verifique o status:** Um ícone de status ao lado do campo de CEP indicará o resultado da busca. Um ícone verde indica sucesso, enquanto a ausência de ícone ou um ícone diferente pode indicar um erro.
@@ -45,6 +46,7 @@ Este projeto Java demonstra a implementação técnica de uma busca automática 
 5. **Limpe os campos:** Para realizar uma nova busca, clique no botão "Limpar".  Todos os campos serão limpos, e o foco retornará ao campo de CEP.
 
 6. **Sobre o projeto:** Para obter informações sobre o projeto, a versão, o autor e links para repositórios online (como GitHub e LinkedIn), clique no botão "Sobre".
+ 
    ![cepsobre](https://github.com/user-attachments/assets/fe09bf9c-f9c2-458f-926f-931905da313f)
 ## Limitações
 
