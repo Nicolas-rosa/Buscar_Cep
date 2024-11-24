@@ -33,12 +33,15 @@ Este projeto Java demonstra a implementação técnica de uma busca automática 
 ## Uso
 
 1. Insira o CEP no campo de texto designado.
-2. Clique no botão "Pesquisar".
+![cep1](https://github.com/user-attachments/assets/e9882702-00bc-437a-822c-b68a4a7da44e)
+2. Clique no botão "Pesquisar" caso houver algum erro sera indicado.
+![ceperror](https://github.com/user-attachments/assets/d5c1ea8d-79a8-431b-a976-66277821e2bf)
 3. As informações de endereço correspondentes serão exibidas nos campos apropriados, caso o CEP seja encontrado.
 4. Um ícone de status indicará o resultado da busca.
+![cepresul](https://github.com/user-attachments/assets/b8acad4a-0029-4bdc-b6d7-9b950ad9ce82)
 5. Utilize o botão "Limpar" para apagar o conteúdo dos campos.
 6. Acesse a janela "Sobre" para obter informações adicionais sobre o projeto e o autor.
-
+![cepsobre](https://github.com/user-attachments/assets/fe09bf9c-f9c2-458f-926f-931905da313f)
 ## Limitações
 
 * O Web Service da República Virtual pode apresentar instabilidade. Recomenda-se a migração para o ViaCEP.
@@ -50,7 +53,5 @@ Este projeto Java demonstra a implementação técnica de uma busca automática 
 Nicolas França Castro Rosa
 
 
-![cepsobre](https://github.com/user-attachments/assets/fe09bf9c-f9c2-458f-926f-931905da313f)
-![cepresul](https://github.com/user-attachments/assets/b8acad4a-0029-4bdc-b6d7-9b950ad9ce82)
-![ceperror](https://github.com/user-attachments/assets/d5c1ea8d-79a8-431b-a976-66277821e2bf)
-![cep1](https://github.com/user-attachments/assets/e9882702-00bc-437a-822c-b68a4a7da44e)
+
+
