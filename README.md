@@ -22,12 +22,6 @@ Este projeto Java demonstra a implementação técnica de uma busca automática 
 * **Web Service de CEP (Republica Virtual):** Serviço externo utilizado para consultar informações de endereço por CEP.  _(Recomenda-se a migração para o ViaCEP para maior confiabilidade)._
 * **Eclipse IDE:** Ambiente de desenvolvimento integrado utilizado para o desenvolvimento do projeto.
 
-## Como Executar
-
-1. **Pré-requisitos:** Java Development Kit (JDK) instalado e configurado no Eclipse IDE.
-2. **Bibliotecas:**  As bibliotecas `dom4j` e `Atxy2k` são necessárias.  Gerencie as dependências utilizando um sistema de build como o Maven, adicionando as dependências necessárias ao arquivo `pom.xml`. Os arquivos de imagem devem estar localizados na pasta `resources/img` dentro da estrutura do projeto no Eclipse.
-3. **Compilação:**  Compile o projeto no Eclipse IDE (Project > Clean... > Build Project).
-4. **Execução:** Execute o arquivo JAR gerado através do comando: `java -jar nome_do_seu_jar.jar`.
 
 ## Uso
 
@@ -48,10 +42,6 @@ Este projeto Java demonstra a implementação técnica de uma busca automática 
 6. **Sobre o projeto:** Para obter informações sobre o projeto, a versão, o autor e links para repositórios online (como GitHub e LinkedIn), clique no botão "Sobre".
  
    ![cepsobre](https://github.com/user-attachments/assets/fe09bf9c-f9c2-458f-926f-931905da313f)
-## Limitações
-
-* O Web Service da República Virtual pode apresentar instabilidade. Recomenda-se a migração para o ViaCEP.
-* O layout da interface gráfica é absoluto, podendo apresentar problemas de adaptação em diferentes resoluções.
 
 
 ## Autor
